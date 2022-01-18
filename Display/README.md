@@ -1,7 +1,7 @@
 # Block, Inline, and Inline-Block
 This is my notes for using block, inline, and inline-block
 
-#### Display Project <a href="https://haithamthabt.github.io/css/Display/index.html">Demo</a> 
+#### Display Project <a href="https://haithamthabt.github.io/css/Display">Demo</a> 
 
 ## _Display_
 The `display` property specifies if/how an element is displayed.
