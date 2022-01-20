@@ -4,6 +4,13 @@ p{
 
 a{
     outline: 3px solid aqua;
+    /*padding-top-bottom and margin-top-bottom does not apply or effect on inline elements: lets try it*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /*Generaly speaking you cant effect the height of inline elements*/
 }
 
 body{
@@ -26,6 +33,19 @@ body{
     margin-top: 10%;
   }
 
-.title{
+.title {
     text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    background: lightblue;
+    color: black;
+    padding: 75px 150px;
+    text-decoration: none;
+
+}
+.btn:hover {
+    background-color: blue;
+    color: white;
 }
