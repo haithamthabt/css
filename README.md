@@ -11,7 +11,9 @@ This is my notes on css. You will find here small projects to learn css. There a
 ##Put this notes in the Repossinve Folder
 -By default without any css your website is responive. This means if you only have html, your website is responsive. The layout will workout on big screens and on small screens. Might not be prettry but the website adapts with the viewport. Despite that images can overflow, but we are not losing any text or anything along the way.
 -So after writing some css and runnning into issues, that means that css you wrote is causing the issues. 
-- Best practice to write responisve css is to not start with the layoout but is to start with Global stuff; such as cover stuff like typograghy, colors, backgrounds, etc. Then cover the layout
-- When working with layout, avoid fixed sizes. Setting fixed hight or fixed width is only gonna cause you problems
-- 
+- Best practice to write responisve css is to not start with the layoout but is to start with Global stuff; such as cover stuff like typograghy, colors, backgrounds, spacing etc. Then cover the layout
+- When we focus on Global stuff first we actually focused on Mobile First Design, see how it is for mobile , we do few tweeks and then we can exapand to larger screens (Source: https://www.youtube.com/watch?v=VQraviuwbzU)
+- When working with layout, avoid fixed sizes. Setting fixed height or fixed width is only gonna cause you problems
+- For height and width you gonna use min/max for sizes.
+- For media, only add them to add complexities, in general, like 99% of media queries arrays are min-width ones. 
 - 
